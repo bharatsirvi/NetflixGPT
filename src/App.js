@@ -1,11 +1,8 @@
-import './App.css';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className="App text-5xl">
-           APpp kss  kk
-           ss
-    </div>
+      <Body/>
   );
 }
 
