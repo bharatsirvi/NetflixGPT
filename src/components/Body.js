@@ -1,25 +1,25 @@
-import React from 'react'
-import Login from './Login'
-import Browser from './Browser'
-import {createBrowserRouter,RouterProvider} from 'react-router-dom'
+import React from "react";
+import Login from "./Login";
+import Browse from "./Browse";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const Body = () => {
-
-const appRoute = createBrowserRouter([
+  const appRoute = createBrowserRouter([
     {
-        path:'/',
-        element:<Login/>
+      path: "/",
+      element: <Login />,
     },
     {
-        path:'/browser',
-        element:<Browser/>
-    }
-])
-  return (
-    <div>
-        <RouterProvider router={appRoute} />
-    </div>  
-  )
-}
+      path: "/browse",
+      element: <Browse />,
+    },
+  ]);
 
-export default Body
+  return (
+    <div className="font-netflix">
+      <RouterProvider router={appRoute} />
+    </div>
+  );
+};
+
+export default Body;
