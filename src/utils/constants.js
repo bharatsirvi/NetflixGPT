@@ -15,5 +15,6 @@ export const TMDB_API_OPTIONS = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYWY3MTE2Njg4MDgxM2E2NWViNWEzZmRkM2IxYjA5NyIsIm5iZiI6MTc0MzE1MjM3OC40MzUwMDAyLCJzdWIiOiI2N2U2NjRmYTMzYTc0MzQxZTMxMGRmZjkiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.zhXiCpXipO--0zqPlzmctoD5x0rSgBfrJQXdQhtBPEA",
   },
 };
+export const TMDB_IMAGE_BASE_URL= "https://image.tmdb.org/t/p/w400/"
 
 

@@ -46,13 +46,13 @@ const Header = () => {
 
   return user ? (
     <div
-      className={`z-50 fixed top-0 left-0 w-full flex items-center justify-between px-8 py-4 transition-all duration-500 ${
+      className={`z-50 fixed top-0 left-0 w-full flex items-center justify-between px-12 py-3 transition-all duration-500 ${
         isScrolled
-          ? "bg-black bg-opacity-90 shadow-md backdrop-blur-md"
-          : "bg-gradient-to-b from-black/80 via-black/40 to-transparent"
+          ? "bg-neutral-950 shadow-md"
+          : "bg-gradient-to-b from-neutral-950/60 via-neutral-950/40 to-transparent"
       }`}
     >
-      <div className="w-32">
+      <div className="w-28">
         <img src={NETFLIX_LOGO} alt="logo" />
       </div>
 

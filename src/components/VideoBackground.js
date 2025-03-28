@@ -78,11 +78,11 @@ const VideoBackground = ({ movieId }) => {
     <div className="relative w-full h-screen overflow-hidden bg-black">
       <div
         id="youtube-player"
-        className="absolute top-0 left-0 w-[120%] h-[120%] -translate-x-[10%] -translate-y-[12%]"
+        className="absolute top-0 left-0 w-[120%] h-[120%] -translate-x-[10%] -translate-y-[14%]"
       ></div>
       <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-black/10 to-transparent z-10"></div>
       <button
-        className="absolute z-30 bottom-40 right-20 backdrop-blur-md text-white px-4 py-3 rounded-full flex items-center gap-2 hover:bg-black/20 transition pointer-events-auto border"
+        className="absolute z-30 bottom-64 right-24 backdrop-blur-md text-white px-2 py-2 rounded-full flex items-center gap-2 hover:bg-black/20 transition pointer-events-auto border"
         onClick={toggleMute}
       >
         {isMuted ? (

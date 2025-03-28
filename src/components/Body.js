@@ -16,7 +16,7 @@ const Body = () => {
   ]);
 
   return (
-    <div className="font-netflix">
+    <div className="font-netflix bg-gray-950">
       <RouterProvider router={appRoute} />
     </div>
   );
